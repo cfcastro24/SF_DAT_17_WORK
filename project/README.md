@@ -1,4 +1,6 @@
-**Tire Life Prediction**
+**Project: Tire Life Prediction**
+[ Documentation ]( https://docs.google.com/document/d/1d4X-a2_XxXTXbcOI7QNRjT6aNDkmb8wex8W3--b8Gwc/edit?usp=sharing )
+
 ##Problem Statement
 For my project I wanted to choose a real life use case and work with real life data sets which could eventually materialize into something.  Automundial or “TheTireCompany”  is a Colombian company offers a rethreading tire service for large transportation companies that have fleets of vehicles w/ hundreds to thousands of tires in use at any given moment. Once tires are worn out, these companies send the tires to TheTireCompany’s processing plant for rethreading rather than buying new ones. Based on the status of the incoming tire, these tires can either be rejected or rethreaded and sent back to the transportation company. 
 
