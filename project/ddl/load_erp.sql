@@ -1,0 +1,11 @@
+copy erp_csdim from '/data/planta/csdim.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_csdis from '/data/planta/csdis.asc.clean' USING DELIMITERS '|' WITH NULL AS '' LOG ERRORS INTO err_erp_csdis;
+copy erp_csmar from '/data/planta/csmar.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_csmov from '/data/planta/csmov.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_csmovdet from '/data/planta/csmovdet.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_cssal from '/data/planta/cssal.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_cstiq from '/data/planta/cstiq.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_cardetmal from '/data/planta/cardetmal.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_carmal from '/data/planta/carmal.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_cauaj from '/data/planta/cauaj.asc.clean' USING DELIMITERS '|' WITH NULL AS '';
+copy erp_cauajn from '/data/planta/cauajn.asc.clean' USING DELIMITERS '|' WITH NULL AS '';

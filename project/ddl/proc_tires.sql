@@ -24,5 +24,5 @@ license_plate varchar
 );
 
 --load data
-COPY proc_tires FROM '/Users/ccastro/charlie_dev/SF_DAT_17_WORK/project/data/processed_tires_2011.csv' DELIMITER ',' CSV HEADER;
-COPY proc_tires FROM '/Users/ccastro/charlie_dev/SF_DAT_17_WORK/project/data/processed_tires_2012.csv' DELIMITER ',' CSV HEADER;
+COPY proc_tires FROM '/data/processed_tires_2011.csv' DELIMITER ',' CSV HEADER;
+COPY proc_tires FROM '/data/processed_tires_2012.csv' DELIMITER ',' CSV HEADER;
